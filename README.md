@@ -22,6 +22,7 @@ Once installed, run the following command to install the latest version of Node.
 ```bash
 nvm install --lts
 nvm use node
+nvm alias default node
 ```
 
 Be sure to update your user profile as directed in the output terminal messages. Verify Node.js and 
