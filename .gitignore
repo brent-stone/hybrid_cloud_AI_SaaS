@@ -1,3 +1,16 @@
+.DS_Store
+/node_modules/
+*.tsbuildinfo
+
+# React Router
+/.react-router/
+/build/
+
+# Cloudflare
+.mf
+.wrangler
+*.jsonc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -135,6 +148,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.dev.vars
 
 # Spyder project settings
 .spyderproject
@@ -172,3 +186,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# IntelliJ
+.idea
